@@ -1,0 +1,13 @@
+[nfs]
+172.31.20.245 ansible_ssh_user='ansadmin'
+
+[webservers]
+172.31.19.200 ansible_ssh_user='ansadmin'
+172.31.18.120 ansible_ssh_user='ansadmin'
+172.31.24.2 ansible_ssh_user='ansadmin'
+
+[db]
+172.31.23.48 ansible_ssh_user='ansadmin' 
+
+[lb]
+172.31.25.177 ansible_ssh_user='ansadmin'
