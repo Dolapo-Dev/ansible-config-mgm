@@ -1,3 +1,6 @@
-[uat-webservers]
+[webservers]
 172.31.16.216 ansible_ssh_user='ansadmin' 
 172.31.17.59 ansible_ssh_user='ansadmin'
+
+[lb]
+172.31.27.122 ansible_ssh_user='ansadmin'
